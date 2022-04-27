@@ -11,6 +11,9 @@ class SIDERUNNER_API ARunnerCharacter : public ACharacter
 {
 	GENERATED_BODY()
 
+		UPROPERTY(VisibleAnywhere)
+		class UCameraComponent* SideViewCamera;
+
 public:
 	// Sets default values for this character's properties
 	ARunnerCharacter();
